@@ -26,11 +26,14 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
+					light: 'hsl(var(--primary-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,7 +45,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					light: 'hsl(var(--accent-light))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -51,6 +55,20 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				builder: {
+					panel: 'hsl(var(--builder-panel))',
+					'panel-border': 'hsl(var(--builder-panel-border))',
+					canvas: 'hsl(var(--builder-canvas))',
+					'canvas-grid': 'hsl(var(--builder-canvas-grid))'
+				},
+				component: {
+					selected: 'hsl(var(--component-selected))',
+					hover: 'hsl(var(--component-hover))'
+				},
+				'drop-zone': {
+					DEFAULT: 'hsl(var(--drop-zone))',
+					active: 'hsl(var(--drop-zone-active))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
